@@ -1,0 +1,10 @@
+.size {
+  height: 400px;
+  background-color: blue;
+  width: 400px;
+  margin: auto;
+}
+
+.box-margin {
+  margin-bottom: 20px;
+}

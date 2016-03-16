@@ -1,0 +1,44 @@
+<html>
+  <head>
+      <title>js_calculator</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+      <link rel="stylesheet" href="stylesheets/styles.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div class="center"><h1>Calculator</h1></div>
+      <div class="size">
+        <div class="row">
+          <div class="col s12 box-margin white-text"><input type="text" id="mytext"></div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(7)">7</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(8)">8</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(9)">9</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="pickOperator('+')">+</div>
+        </div>
+        <div class="row">
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(4)">4</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(5)">5</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(6)">6</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="pickOperator('-')">-</div>
+        </div>
+        <div class="row">
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(1)">1</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(2)">2</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(3)">3</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="pickOperator('*')">*</div>
+        </div>
+        <div class="row">
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(0)">0</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="setNum(0)">.</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="execute()">ent</div>
+          <div class="col s3 btn waves-effect waves-teal" onclick="pickOperator('/')">/</div>
+        </div>
+        <div class="row">
+          <div class="col s12 btn waves-effect waves-teal" onclick="clear()">clear</div>
+        </div>
+      </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type='text/javascript' src='javascripts/main.js'></script>
+  </body>
+</html
